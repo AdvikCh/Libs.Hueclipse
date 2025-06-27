@@ -1,0 +1,42 @@
+<<<<<<< HEAD
+[package]
+name = "hueclipse"
+version = "1.0.2"
+authors = ["Advik Chaudhary <advik.ch@gmail.com"]
+edition = "2021"
+license = "MIT"
+description = "Library behind Hueclipse -- a colour-removing app"
+homepage = "https://github.com/AdvikCh/Softwares.Hueclipse.git"
+repository = "https://github.com/AdvikCh/Softwares.Hueclipse.git"
+keywords = ["image", "rust", "erase", "color", "transparent"]
+categories = ["image-processing", "remove-background"]
+
+[lib]
+name = "hueclipse"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.21", features = ["extension-module"] }
+image = "0.25"
+=======
+[package]
+name = "hueclipse"
+version = "2.0.0"
+authors = ["Advik Chaudhary <advik.ch@gmail.com>"]
+edition = "2021"
+license = "MIT"
+description = "Image Processing Library made in Rust"
+homepage = "https://github.com/AdvikCh/Softwares.Hueclipse.git"
+repository = "https://github.com/AdvikCh/Softwares.Hueclipse.git"
+keywords = ["hueclipse", "image", "rust", "erase", "color", "transparent", "rotate", "flip", "random"]
+categories = ["image-processing", "remove background", "image-editor"]
+
+[lib]
+name = "hueclipse"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.21", features = ["extension-module"] }
+image = "0.25"
+fastrand = "2"
+>>>>>>> 0b4b749 (V-2)
